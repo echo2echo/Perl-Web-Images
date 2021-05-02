@@ -5,10 +5,12 @@ This script is for someone who would like to display images on paginated sheets
 This script requires a web server with a cgi-bin that runs perl.  Your server may require installing the Perl modules CGI and POSIX
 There are several methods to install these modules.
 
+
 For example
 $ sudo cpan -i CGI 
 or 
 $ cpanm CGI
+
 
 Place your images (jpgs used with this script) in a local directory on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
 
