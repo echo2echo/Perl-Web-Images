@@ -16,9 +16,9 @@ Place your images (jpgs used with this script) in a local directory on your serv
 
 The "find" command will retrieve all the "jpg", "JPG" or "jpeg" images in your public folder containing your images. The script makes image file names case insensitive.
 
-Images to be displayed will be sorted alphanumerically with six images per page (You can change this if you would like 
+Images to be displayed will be sorted alphanumerically with six images per page as the current setting. (You can change this if you would like.)
 
-Arrange photo file names alphanumerically to determine display order when running this script
+Arrange photo file names alphanumerically to determine display order when running this scrip
 
 Place the perl script in a folder in your cgi-bin.  Something like /usr/lib/cgi-bin/MyGallery
 
@@ -27,5 +27,5 @@ $ chmod 755 perl-cgi-images.pl
 
 Change html to taste and change Copyright to your own site.
 
-To unzip  github zip file use linux "unzip" with the -d flag to upzip into your prefered directory 
+To unzip github zip file use linux "unzip" with the -d flag to upzip into your prefered directory. 
 $ unzip Perl-Web-Images-main.zip -d /path/to/directory
