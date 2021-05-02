@@ -17,7 +17,9 @@ $ cpanm CGI
 
 Place your images (jpgs used with this script) in a local directory on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
 
-The "find" command will retrieve all the "jpg", "JPG" or "jpeg" images in your public folder containing your images. The script makes image file names case insensitive.
+You may have to change permissions on image files with something like..
+
+$ sudo chmod 755 *.JPG
 
 Images to be displayed will be sorted alphanumerically with six images per page as the current setting. (You can change this if you would like.)
 
@@ -32,4 +34,7 @@ Change html to taste and change Copyright to your own site.
 
 To unzip github zip file use linux "unzip" with the -d flag to upzip into your prefered directory. 
 
-$ unzip Perl-Web-Images-main.zip -d /path/to/directory
+$ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin
+
+Change name of unzipped directory to something like "galleries"
+$ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/galleries
