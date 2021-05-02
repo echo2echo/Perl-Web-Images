@@ -7,8 +7,11 @@ There are several methods to install these modules.
 
 
 For example
+
 $ sudo cpan -i CGI 
+
 or 
+
 $ cpanm CGI
 
 
