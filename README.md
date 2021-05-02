@@ -17,5 +17,7 @@ Images to be displayed will be sorted alphanumerically with six images per page 
 Arrange photo file names alphanumerically to determine display order when running this script
 
 Place the perl script in a folder in your cgi-bin.
+
 Give execute permission to the perl script.
-$ chmod 755 
+$ chmod 755 perl-cgi-images.pl
+Or change perl script name to something like index.pl or index.cgi
