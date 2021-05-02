@@ -25,7 +25,13 @@ Images to be displayed will be sorted alphanumerically with six images per page 
 .
 Arrange photo file names alphanumerically to determine display order when running this script.
 
-Place the perl script in a folder in your cgi-bin.  Something like /usr/lib/cgi-bin/MyGallery
+To unzip github zip file use linux "unzip" with the -d flag to upzip into your prefered directory.
+
+Change name of unzipped directory to something like "MyGallery" with the following
+
+$ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin/MyGallery
+
+$ sudo mv /usr/lib/cgi-bin/MyGallery/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
 
 Give execute permission to the perl script.
 
@@ -33,12 +39,4 @@ $ chmod 755 perl-cgi-images.pl
 
 Change html to taste and change Copyright to your own site.
 
-To unzip github zip file use linux "unzip" with the -d flag to upzip into your prefered directory. 
-
-$ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin
-
-Change name of unzipped directory to something like "MyGallery"
-
-$ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
-
-Visit your site  http://YourSite.net/cgi-bin/perl-cgi-images.pl to see image gallery.
+Visit your site  http://YourSite.net/cgi-bin/MyGallery/perl-cgi-images.pl to see image gallery.
