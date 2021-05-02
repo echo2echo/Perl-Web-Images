@@ -22,8 +22,8 @@ You may have to change permissions on image files with something like..
 $ sudo chmod 755 *.JPG
 
 Images to be displayed will be sorted alphanumerically with six images per page as the current setting. (You can change this if you would like.)
-
-Arrange photo file names alphanumerically to determine display order when running this scrip
+.
+Arrange photo file names alphanumerically to determine display order when running this script.
 
 Place the perl script in a folder in your cgi-bin.  Something like /usr/lib/cgi-bin/MyGallery
 
