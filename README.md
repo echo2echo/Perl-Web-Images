@@ -19,7 +19,7 @@ Place your images (jpgs used with this script) in a local directory on your serv
 
 You may have to change permissions on image files with something like..
 
-$ sudo chmod 755 *.JPG
+$ sudo chmod 644 *.JPG
 
 Images to be displayed will be sorted alphanumerically with six images per page as the current setting. (You can change this if you would like.)
 .
