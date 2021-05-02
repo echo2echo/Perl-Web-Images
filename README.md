@@ -14,7 +14,7 @@ $ cpanm CGI
 
 Place your images (jpgs used with this script) in a local directory on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
 
-The "find" command will retrieve all the "jpg", "JPG" or "jpeg" images in your public folder containing your images. The image file names are case insensitive.
+The "find" command will retrieve all the "jpg", "JPG" or "jpeg" images in your public folder containing your images. The script makes image file names case insensitive.
 
 Images to be displayed will be sorted alphanumerically with six images per page (You can change this if you would like 
 
