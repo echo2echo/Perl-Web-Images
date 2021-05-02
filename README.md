@@ -1,6 +1,6 @@
 # Perl-Web-Images
 
-This script is for someone who would like to display images on paginated sheets
+This script is for someone (a photographer for example) who would like to display web pages of images paginated into sheets/web pages.
 
 This script requires a web server with a cgi-bin that runs perl.  Your server may require installing the Perl modules CGI and POSIX
 There are several methods to install these modules.
