@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
 
-# File Name: index.pl 
+# File Name: perl-cgi-images.pl 
 # Perl CGI Script to Create Paginated Sheets of Image Galleries
 # Made for Photographers
 # By Joel Rader  info[at]JoelRader[dot]net
-#
-# Please write me if you would like this script customized for your own site
 #
 # Created: 7/1/2019
 # Last Updated: 11/4/2020
