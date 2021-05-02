@@ -1,5 +1,7 @@
 # Perl-Web-Images
 
+This script is for someone who would like to display images on paginated sheets
+
 This script requires a web server with a cgi-bin that runs perl.  Your server may require installing the Perl modules CGI and POSIX
 There are several methods to install these modules.
 
@@ -16,8 +18,9 @@ Images to be displayed will be sorted alphanumerically with six images per page 
 
 Arrange photo file names alphanumerically to determine display order when running this script
 
-Place the perl script in a folder in your cgi-bin.
+Place the perl script in a folder in your cgi-bin.  Something like /usr/lib/cgi-bin/MyGallery
 
 Give execute permission to the perl script.
 $ chmod 755 perl-cgi-images.pl
-Or change perl script name to something like index.pl or index.cgi
+
+Change html to taste and change Copyright to your site
