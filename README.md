@@ -27,5 +27,5 @@ $ chmod 755 perl-cgi-images.pl
 
 Change html to taste and change Copyright to your own site.
 
-To unzip zip file use unzip with the -d flag to upzip into your prefered directory 
+To unzip  github zip file use linux "unzip" with the -d flag to upzip into your prefered directory 
 $ unzip filename.zip -d /path/to/directory
