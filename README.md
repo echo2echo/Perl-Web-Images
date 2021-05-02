@@ -37,4 +37,4 @@ To unzip github zip file use linux "unzip" with the -d flag to upzip into your p
 $ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin
 
 Change name of unzipped directory to something like "galleries"
-$ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/galleries
+$ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/mygallery
