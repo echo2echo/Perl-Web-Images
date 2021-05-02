@@ -21,7 +21,7 @@ You may have to change permissions on image files with something like..
 
 $ sudo chmod 644 *.JPG
 
-Images to be displayed will be sorted alphanumerically with six images per page as the current setting. (You can change this if you would like.)
+Images to be displayed will be sorted alphanumerically with six images per sheet/page as the current setting. (You can change this if you would like.)
 .
 Arrange photo file names alphanumerically to determine display order when running this script.
 
