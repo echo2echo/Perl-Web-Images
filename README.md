@@ -31,6 +31,8 @@ Change name of unzipped directory to something like "MyGallery" with the followi
 
 $ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin/MyGallery
 
+Next, move unzipped files to your cgi-bin directory.
+
 $ sudo mv /usr/lib/cgi-bin/MyGallery/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
 
 Give execute permission to the perl script.
