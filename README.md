@@ -28,6 +28,7 @@ Arrange photo file names alphanumerically to determine display order when runnin
 Place the perl script in a folder in your cgi-bin.  Something like /usr/lib/cgi-bin/MyGallery
 
 Give execute permission to the perl script.
+
 $ chmod 755 perl-cgi-images.pl
 
 Change html to taste and change Copyright to your own site.
