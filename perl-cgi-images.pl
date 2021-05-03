@@ -4,10 +4,6 @@
 # Perl CGI Script to Create Paginated Sheets of Image Galleries
 # Made for Photographers
 # By Joel Rader  info[at]JoelRader[dot]net
-#
-# Created: 7/1/2019
-# Last Updated: 11/4/2020
-# Copyleft 🄯 : 10/17/2019
 
 use strict;
 use warnings; 
@@ -18,6 +14,7 @@ use diagnostics;
 use CGI qw(param);
 use POSIX qw(ceil);
 
+# Declare variables
 my $cgi = CGI->new;
 my $end = 0;
 my $start = 0;
@@ -26,7 +23,7 @@ my $element = 0;
 # Declare @imagehtml which will later hold array of html for images placed in public folder...
 my @imagehtml;
 
-# Place your images (jpgs used here) in a local directory that has public http access
+# Place your images (jpg jpeg and png used here) in a local directory that has public http access
 # Next we will "find" all the "jpg", "JPG" or "jpeg" or "png" images in your public folder containing your images.  Images to be displayed will be sorted alphanumerically. 
 # Arrange photo file names alphanumerically to determine display order when running this script
 my @find = `find /var/www/YourSite.net/public_html/YourDirectory . -name "*.jpg" -o -name "*.JPG" -o -name "*.jpeg" -o -name "*.png" | sort --ignore-case`;
@@ -37,7 +34,7 @@ print '<html lang="en">
 	<head>
 		
 		<meta charset="UTF-8">
-		<title> Your Heading </title>
+		<title> Your Title Here </title>
 		
 		<style>
 
@@ -66,8 +63,8 @@ print '<html lang="en">
 
 foreach(@find){
 	
-	# if @find array contains "jpg", "JPG" or "jpeg"  continue with picture dimensions and URL html
-	if (($_ =~ m/\.jpg/i) || ($_ =~ m/\.jpeg/i))  {
+	# if @find array contains "jpg", "JPG", "jpeg" or "png" continue with picture dimensions and URL html
+	if (($_ =~ m/\.jpg/i) || ($_ =~ m/\.jpeg/i) || ($_ =~ m/\.png/i))  {
 		
 		chomp($_);
 		
