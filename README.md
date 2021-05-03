@@ -29,7 +29,7 @@ Arrange photo file names alphanumerically to determine display order when runnin
 
 To unzip github zip file use linux "unzip" with the -d flag to upzip into your prefered directory.
 
-Change name of unzipped directory to something like "MyGallery" with the following
+Change location of unzipped directory to something like the following
 
 $ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin/
 
