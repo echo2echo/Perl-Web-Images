@@ -69,7 +69,7 @@ foreach(@find){
 		chomp($_);
 		
 		# Change local path to images to a URL
-		$_ =~ s/\/var\/www\/YourSite.net\/public_html\//https:\/\/YourSite.net\//;
+		$_ =~ s/\/var\/www\/YourSite.net\/public_html\//http:\/\/YourSite.net\//;
 
 		# Load array with image html
 	 	push @imagehtml, '<a href="'.$_.'"><img class="orientation resize" src="'.$_.'" alt="'.$_.'"></a>'."\n\t";
@@ -86,7 +86,7 @@ getNumberOfSheets();
 print "\n    <!-- End Sheet --> \n";
 
 # Change copyright notice to your own site
-print '<br><br><a style="font-size: small; color:slategray;" href="https://YourSite.net">Return to the homepage</a>. <br><br><span style="font-size:70%; color:slategray;">Copyleft 🄯 ; 2021 <a href="https://YourSite.net"> Your Name Here </a></span>';
+print '<br><br><a style="font-size: small; color:slategray;" href="http://YourSite.net">Return to the homepage</a>. <br><br><span style="font-size:70%; color:slategray;">Copyleft 🄯 ; 2021 <a href="http://YourSite.net"> Your Name Here </a></span>';
 print "</div></body>\n</html>";
 
 sub getNumberOfSheets {
