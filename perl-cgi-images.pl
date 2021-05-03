@@ -23,8 +23,8 @@ my $element = 0;
 # Declare @imagehtml which will later hold array of html for images placed in public folder...
 my @imagehtml;
 
-# Place your images (jpg jpeg and png used here) in a local directory that has public http access
-# Next we will "find" all the "jpg", "JPG" or "jpeg" or "png" images in your public folder containing your images.  Images to be displayed will be sorted alphanumerically. 
+# Place your images (jpg jpeg and png ok here) in a local directory that has public http access
+# Next we will "find" all the "jpg", "JPG", "jpeg" or "png" images in your public folder containing your images.  Images to be displayed will be sorted alphanumerically. 
 # Arrange photo file names alphanumerically to determine display order when running this script
 my @find = `find /var/www/YourSite.net/public_html/YourDirectory . -name "*.jpg" -o -name "*.JPG" -o -name "*.jpeg" -o -name "*.png" | sort --ignore-case`;
 
