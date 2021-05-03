@@ -43,4 +43,4 @@ $ chmod 755 perl-cgi-images.pl
 
 Change html to taste and change Copyright to your own site.
 
-Visit your site at http://YourSite.net/cgi-bin/MyGallery/perl-cgi-images.pl to see your image gallery.
+Visit your site at something like http://YourSite.net/cgi-bin/MyGallery/perl-cgi-images.pl to see your image gallery.
