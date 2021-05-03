@@ -17,7 +17,7 @@ or
 $ cpanm CGI
 
 
-Place your images (jpgs used with this script) in a local directory on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
+Place your images (jpg, jpeg and png can be used with this script) in a local directory on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
 
 You may have to change permissions on image files with something like..
 
