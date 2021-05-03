@@ -14,11 +14,7 @@ $ sudo cpan -i CGI
 
 or 
 
-$ cpanm CGI
-
-or
-
-$ sudo apt install libdbi-perl
+$ sudo cpanm CGI
 
 
 Place your images (jpg, jpeg and png can be used with this script) in a local directory on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
