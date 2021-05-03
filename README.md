@@ -31,11 +31,11 @@ To unzip github zip file use linux "unzip" with the -d flag to upzip into your p
 
 Change name of unzipped directory to something like "MyGallery" with the following
 
-$ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin/MyGallery
+$ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin/
 
-Next, move unzipped files to your cgi-bin directory.
+Next, move unzipped folder to your cgi-bin directory.
 
-$ sudo mv /usr/lib/cgi-bin/MyGallery/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
+$ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
 
 Give execute permission to the perl script.
 
@@ -43,4 +43,4 @@ $ chmod 755 perl-cgi-images.pl
 
 Change html to taste and change Copyright to your own site.
 
-Visit your site  http://YourSite.net/cgi-bin/MyGallery/perl-cgi-images.pl to see image gallery.
+Visit your site at http://YourSite.net/cgi-bin/MyGallery/perl-cgi-images.pl to see your image gallery.
