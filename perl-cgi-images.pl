@@ -27,9 +27,9 @@ my $element = 0;
 my @imagehtml;
 
 # Place your images (jpgs used here) in a local directory that has public http access
-# Next we will "find" all the "jpg", "JPG" or "jpeg" images in your public folder containing your images.  Images to be displayed will be sorted alphanumerically. 
+# Next we will "find" all the "jpg", "JPG" or "jpeg" or "png" images in your public folder containing your images.  Images to be displayed will be sorted alphanumerically. 
 # Arrange photo file names alphanumerically to determine display order when running this script
-my @find = `find /var/www/YourSite.net/public_html/YourDirectory . -name "*.jpg" -o -name "*.JPG" -o -name "*.jpeg" | sort --ignore-case`;
+my @find = `find /var/www/YourSite.net/public_html/YourDirectory . -name "*.jpg" -o -name "*.JPG" -o -name "*.jpeg" -o -name "*.png" | sort --ignore-case`;
 
 print "Content-Type: text/html\n\n";
 print "<!DOCTYPE html>\n";
