@@ -68,7 +68,8 @@ foreach(@find){
 		
 		chomp($_);
 		
-		# Change local path to images to a URL
+		# Change local path to images to a URL... Change "YourSite.net" to your site name
+
 		$_ =~ s/\/var\/www\/YourSite.net\/public_html\//http:\/\/YourSite.net\//;
 
 		# Load array with image html
