@@ -43,6 +43,10 @@ $ chmod 755 perl-cgi-images.pl
 
 See notes and other instructions in the Perl script 
 
+Change name of perl file perl-cgi-images.pl to index.pl
+
+$ sudo mv perl-cgi-images.pl index.pl
+
 Change html to taste and change Copyright to your own site.
 
 Visit your site at something like http://YourSite.net/cgi-bin/MyGallery/perl-cgi-images.pl to see your image gallery.
