@@ -39,13 +39,13 @@ $ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
 
 Give execute permission to the perl script.
 
-$ chmod 755 perl-cgi-images.pl
-
-See notes and other instructions in the Perl script 
+$ chmod 755 perl-cgi-images.pl 
 
 Change name of perl file perl-cgi-images.pl to index.pl
 
 $ sudo mv perl-cgi-images.pl index.pl
+
+See notes and other instructions in the Perl script
 
 Change html to taste and change Copyright to your own site.
 
