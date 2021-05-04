@@ -41,6 +41,8 @@ Give execute permission to the perl script.
 
 $ chmod 755 perl-cgi-images.pl
 
+See notes and other instructions in the Perl script 
+
 Change html to taste and change Copyright to your own site.
 
 Visit your site at something like http://YourSite.net/cgi-bin/MyGallery/perl-cgi-images.pl to see your image gallery.
