@@ -19,6 +19,7 @@ my $cgi = CGI->new;
 my $end = 0;
 my $start = 0;
 my $element = 0;
+my $originalPath;
 
 # Declare @imagehtml which will later hold array of html for images placed in public folder...    
 my @imagehtml;
@@ -62,20 +63,21 @@ print '<html lang="en">
 ';
 
 foreach(@find){
-	
-	# if @find array contains "jpg", "JPG", "jpeg" or "png" continue with picture dimensions and URL html
-	if (($_ =~ m/\.jpg/i) || ($_ =~ m/\.jpeg/i) || ($_ =~ m/\.png/i))  {
-		
-		chomp($_);
-		
-		# Change local path to images to a URL... Change "YourSite.net" to your site name
 
-		$_ =~ s/\/var\/www\/YourSite.net\/public_html\//http:\/\/YourSite.net\//;
+        $originalPath = $_;
 
-		# Load array with image html
-	 	push @imagehtml, '<a href="'.$_.'"><img class="orientation resize" src="'.$_.'" alt="'.$_.'"></a>'."\n\t";
-	}
+        if ($_ =~ m/thumb_/) {
 
+                        chomp($_);
+
+			# Changes local path to images to a URL
+			# Change YourSite.net to your own site einfo                 
+			$_ =~ s/\/var\/www\/YourSite.net\/public_html\//https:\/\/YourSite.net\//;
+                        $originalPath =~ s/\/var\/www\/YourSite.net\/public_html\//https:\/\/YourSite.net\//;
+                        $originalPath =~ s/thumb_//;
+                        # Load array with image html
+                        push @imagehtml, '<a href="'.$originalPath.'"><img class="resize" src="'.$_.'" alt="'.$_.'"></a>'."\n\t";
+        }
 }
 
 getNumberOfSheets();
