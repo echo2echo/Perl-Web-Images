@@ -5,17 +5,31 @@
 #
 
 This script was made on Ubuntu Linux
+
 Place your images ( jpg jpeg png ) you would like to display in a public folder such as the following...
+
 /var/www/MySite.net/public_html/MyDirectory
+
 Then place the resize_images.pl in the same directory as your images# You may need to install imagemagick. 
+
 You may need to install imagemagick for this script to run
+
 To install on Ubuntu linux try the following...
+
 $ sudo apt install imagemagick 
+
 or build from source... see  https://imagemagick.org for instructions
+
 When run this command will overwrite the existing thumb images named "thumb_*"
 
-Run the command..as follows
+Run the command... as follows to give permission to run
+
+$sudo chmpod 755 resize_images.pl
+
+Run the command...
+
 $ ./resize_images.pl
+
 If it works you will see a list of files converted to thumbnails
 
 #
