@@ -6,6 +6,8 @@
 
 This script was made on Ubuntu Linux
 
+This may be good time to backup your images out of an abundance of caution 
+
 Place your images ( jpg jpeg png ) you would like to display in a public folder such as the following...
 
 /var/www/MySite.net/public_html/MyDirectory
