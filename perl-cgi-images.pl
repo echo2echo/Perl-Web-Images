@@ -39,17 +39,14 @@ print '<html lang="en">
 		
 		<style>
 
-		    img.resize {
-			height: auto; 
-    			width: auto; 
-    			max-width: 300px; 
-    			max-height: 300px;
-			padding: 6px 6px;
-		    }
-			
-		    img.orientation {
-			image-orientation: from-image;	
-	            }	
+		img.resize {
+
+                        height: 475px;
+                        width: auto;
+                        padding: 6px 6px;
+
+                }
+
 		
 		</style>	
 
