@@ -6,6 +6,8 @@
 
 This script was made on Ubuntu Linux
 
+Run this script before the perl-cgi-images.pl cgi script... See below for instructions
+
 This may be good time to backup your images out of an abundance of caution 
 
 Place your images ( jpg jpeg png ) you would like to display in a public folder such as the following...
