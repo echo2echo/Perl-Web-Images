@@ -10,7 +10,7 @@ Place your images ( jpg jpeg png ) you would like to display in a public folder 
 
 /var/www/MySite.net/public_html/MyDirectory
 
-Then place the resize_images.pl in the same directory as your images# You may need to install imagemagick. 
+Then place the resize_images.pl script in the same directory as your images
 
 You may need to install imagemagick for this script to run
 
@@ -20,11 +20,11 @@ $ sudo apt install imagemagick
 
 or build from source... see  https://imagemagick.org for instructions
 
-When run this command will overwrite the existing thumb images named "thumb_*"
+When run, this command will overwrite the existing thumb images named "thumb_*"
 
 Run the command... as follows to give permission to run
 
-$sudo chmpod 755 resize_images.pl
+$sudo chmod 755 resize_images.pl
 
 Run the command...
 
