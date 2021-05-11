@@ -1,5 +1,27 @@
 # Perl-Web-Images
 
+#
+# Instructions for resize_images.pl
+#
+
+This script was made on Ubuntu Linux
+Place your images ( jpg jpeg png ) you would like to display in a public folder such as the following...
+/var/www/MySite.net/public_html/MyDirectory
+Then place the resize_images.pl in the same directory as your images# You may need to install imagemagick. 
+You may need to install imagemagick for this script to run
+To install on Ubuntu linux try the following...
+$ sudo apt install imagemagick 
+or build from source... see  https://imagemagick.org for instructions
+When run this command will overwrite the existing thumb images named "thumb_*"
+
+Run the command..as follows
+$ ./resize_images.pl
+If it works you will see a list of files converted to thumbnails
+
+#
+# Instructions 
+#
+
 This script is for someone (a photographer for example) who would like to display web pages of images paginated into separate sheets/pages.
 
 [Visit this link](https://joelrader.net/cgi-bin/galleries/) to see a demo of the script in action.
