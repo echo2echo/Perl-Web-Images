@@ -127,7 +127,7 @@ sub getImagesPerSheet {
 		
 		my @slice = @imagehtml[ $start .. $end ];
 				
-		foreach my $element (@slice) {
+		foreach $element (@slice) {
 			print "$element\n";
 		}
 }
