@@ -58,4 +58,4 @@ sub resize {
         # -resize x400 sets all generated files to a height of 400... change as needed
         $thumb = `convert $fileName -resize x400 thumb_$fileName 2>/dev/null`;
 
-}h
+}
