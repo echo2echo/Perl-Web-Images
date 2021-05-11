@@ -29,7 +29,8 @@ foreach (@find) {
 
         # if the file size is greater than 1 MB continue on and resize image
 
-        # Change the following value of $bigfile to the size of the image files you would like to replace
+        # Change the following value of $bigfile to the smallest size of the image files you would like to replace
+        # All images larger than assigned below will have a resized image created
         # 1 MB is used here...
         my $bigfile = 1000000;
 
