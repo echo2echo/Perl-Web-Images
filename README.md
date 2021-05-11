@@ -87,6 +87,8 @@ Change html to taste and change Copyright to your own site.
 
 This script will display thumbnail images having the text "thumb_" in the filename.
 
+Use the resize_images.pl with instructions above to generate resized images and change image file size and rename img file with "thumb_" filename 
+
 When viewing the page the thumbnails are displayed. if you would like to see the full sized original file, click on a thumbnail
 
 Visit your site at something like http://YourSite.net/cgi-bin/MyGallery/ to see your image gallery.
