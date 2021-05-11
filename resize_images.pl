@@ -35,9 +35,9 @@ foreach (@find) {
 
         if ( $fileSize > $bigfile ) {
 
-                # If you do not want to include resizing images from subdirectory modify the following
+                # If you do not want to include resizing images from a subdirectory modify the following
                 # change foldernametoskip on the next line 
-                if ( $fileName =~ m/foldernametoskip/ ) { print "Skip imgbak folder $fileName\n"; next; }
+                if ( $fileName =~ m/foldernametoskip/ ) { print "Skip folder $fileName\n"; next; }
 
                 resize();
 
