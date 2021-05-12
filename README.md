@@ -40,7 +40,7 @@ If it works you will see a generated list of files converted to thumbnails
 # Instructions for perl-cgi-images.pl
 #
 
-This script is for someone (a photographer for example) who would like to display web pages of images paginated into separate sheets/pages.
+This script is for someone (a photographer for example) who would like to display web pages of resized images paginated into separate sheets/pages.
 
 [Visit this link](https://joelrader.net/cgi-bin/galleries/) to see a demo of the script in action.
 
