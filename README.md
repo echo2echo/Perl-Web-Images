@@ -26,7 +26,7 @@ or build from source... see  https://imagemagick.org for instructions
 
 When run, this command will overwrite the existing thumb images named "thumb_*"
 
-Run the command... as follows to give permission to run script
+Run the chmod (permissions) command as follows to give permission to run script
  
 $sudo chmod 755 resize_images.pl
 
