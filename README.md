@@ -56,24 +56,23 @@ or
 
 $ sudo cpanm CGI
 
-
-Place your images (jpg, jpeg and/or png) in a local directory on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
+Place your images (jpg, jpeg and/or png) in a local directory (as mentioned earlier) on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
 
 You may have to change permissions on image files with something like..
 
 $ sudo chmod 644 *.JPG
 
-Images to be displayed will be sorted alphanumerically with six images per sheet/page as the current setting. (You can change this if you would like.)
+Images to be displayed will be sorted alphanumerically with six images per sheet/page as the current setting. (You can change this number if you would like.)
 .
 Arrange photo file names alphanumerically to determine display order when running this script.
 
-To unzip github zip file use Linux "unzip" with the -d flag to upzip into your prefered directory.
+To unzip the github zip file use Linux "unzip" with the -d flag to upzip into your prefered directory.
 
 Change location of unzipped directory to something like the following
 
 $ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin/
 
-Next, move unzipped folder to your cgi-bin directory.
+Next, move unzipped folder to your cgi-bin directory.  Something like...
 
 $ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
 
