@@ -34,7 +34,7 @@ Run the following command to create thumbnails
 
 $ ./resize_images.pl
 
-If it works you will see a list of files converted to thumbnails
+If it works you will see a generated list of files converted to thumbnails
 
 #
 # Instructions for perl-cgi-images.pl
