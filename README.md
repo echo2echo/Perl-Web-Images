@@ -67,7 +67,7 @@ Images to be displayed will be sorted alphanumerically with six images per sheet
 .
 Arrange photo file names alphanumerically to determine display order when running this script.
 
-To unzip github zip file use linux "unzip" with the -d flag to upzip into your prefered directory.
+To unzip github zip file use Linux "unzip" with the -d flag to upzip into your prefered directory.
 
 Change location of unzipped directory to something like the following
 
