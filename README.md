@@ -10,7 +10,7 @@ Try this script ( resize_images.pl ) to resize your jpg and png images and bring
 
 This script was made on Ubuntu Linux
 
-Run this script before the perl-cgi-images.pl cgi script... See below for instructions
+Run this script before the perl-cgi-images.pl cgi script whose instructions are listed below... 
 
 This may be good time to backup your images out of an abundance of caution 
 
