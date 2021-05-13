@@ -48,7 +48,7 @@ This script is for someone (a photographer for example) who would like to displa
 
 [Visit this link](https://joelrader.net/cgi-bin/galleries/) to see a demo of the script in action.
 
-Or [try here for another gallery] (https://joelrader.net/cgi-bin/backgrounds/)
+Or [try here for another gallery](https://joelrader.net/cgi-bin/backgrounds/)
 
 This script requires a web server with a cgi-bin that runs perl.  Your server may require installing the Perl modules CGI and POSIX
 There are several methods to install these modules.
