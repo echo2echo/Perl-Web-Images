@@ -4,6 +4,10 @@
 # Instructions for resize_images.pl
 #
 
+Are your camera's image file sizes getting larger and larger and make downloading from the Internet a little too slow?
+
+Try this script ( resize_images.pl ) to resize your jpg and png images and bring back that snappy download speed to your web page.
+
 This script was made on Ubuntu Linux
 
 Run this script before the perl-cgi-images.pl cgi script... See below for instructions
