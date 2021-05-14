@@ -76,7 +76,7 @@ Change location of unzipped directory to something like the following
 
     $ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin/
 
-Next, move unzipped folder to your cgi-bin directory.  Something like...
+Next, move unzipped folder to your cgi-bin gallery's directory. Something like...
 
     $ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
 
