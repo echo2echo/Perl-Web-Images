@@ -24,7 +24,7 @@ You may need to install imagemagick for this script to run
 
 To install on Ubuntu Linux try the following...
 
-bash$ sudo apt install imagemagick 
+ $ sudo apt install imagemagick 
 
 or build from source... see  https://imagemagick.org for instructions
 
@@ -32,11 +32,11 @@ When run, this command will overwrite the existing thumb images named "thumb_*"
 
 Run the chmod (permissions) command as follows to give permission to run script
  
-$sudo chmod 755 resize_images.pl
+ $sudo chmod 755 resize_images.pl
 
 Run the following command to create thumbnails
 
-$ ./resize_images.pl
+ $ ./resize_images.pl
 
 If it works you will see a generated list of files converted to thumbnails
 
@@ -54,17 +54,17 @@ There are several methods to install these modules.
 
 For example
 
-$ sudo cpan -i CGI 
+ $ sudo cpan -i CGI 
 
 or 
 
-$ sudo cpanm CGI
+ $ sudo cpanm CGI
 
 Place your images (jpg, jpeg and/or png) in a local directory (as mentioned earlier) on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
 
 You may have to change permissions on image files with something like..
 
-$ sudo chmod 644 *.JPG
+ $ sudo chmod 644 *.JPG
 
 Images to be displayed will be sorted alphanumerically with six images per sheet/page as the current setting. (You can change this number if you would like.)
 .
@@ -74,19 +74,19 @@ To unzip the github zip file use Linux "unzip" with the -d flag to upzip into yo
 
 Change location of unzipped directory to something like the following
 
-$ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin/
+ $ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin/
 
 Next, move unzipped folder to your cgi-bin directory.  Something like...
 
-$ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
+ $ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
 
 Give execute permission to the perl script.
 
-$ chmod 755 perl-cgi-images.pl 
+ $ chmod 755 perl-cgi-images.pl 
 
 Change name of perl file perl-cgi-images.pl to index.pl
 
-$ sudo mv perl-cgi-images.pl index.pl
+ $ sudo mv perl-cgi-images.pl index.pl
 
 See notes and other instructions in the Perl script
 
