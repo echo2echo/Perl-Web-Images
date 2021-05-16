@@ -28,7 +28,7 @@ To install on Ubuntu Linux try the following...
 
 or build from source... see  https://imagemagick.org for instructions
 
-When run, this command will overwrite the existing thumb images named "thumb_*"
+When run, this script (resize_images.pl) will overwrite the existing thumb images named "thumb_*"
 
 Run the chmod (permissions) command as follows to give permission to run script
  
@@ -76,7 +76,7 @@ Change location of unzipped directory to something like the following
 
     $ sudo unzip Perl-Web-Images-main.zip -d /usr/lib/cgi-bin/
 
-Next, move unzipped folder to your cgi-bin gallery's directory. Something like...
+Next, move unzipped folder to your cgi-bin gallery's directory.Something like...
 
     $ sudo mv /usr/lib/cgi-bin/Perl-Web-Images-main /usr/lib/cgi-bin/MyGallery
 
