@@ -22,7 +22,7 @@ Then place the resize_images.pl script in the same directory as your images
 
 You may need to install imagemagick for this script to run
 
-To install on Ubuntu Linux try the following...
+To install imagemagick on Ubuntu Linux try the following...
 
     $ sudo apt install imagemagick 
 
