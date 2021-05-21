@@ -14,7 +14,7 @@ Run this script before the perl-cgi-images.pl cgi script whose instructions are 
 
 This may be good time to backup your images out of an abundance of caution 
 
-Place the images ( jpg ) you would like to display in a public folder such as the following...
+Place the images ( jpg png ) you would like to display in a public folder such as the following...
 
 /var/www/MySite.net/public_html/MyDirectory
 
