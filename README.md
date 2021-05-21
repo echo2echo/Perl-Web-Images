@@ -6,7 +6,7 @@
 
 Are your camera's image file sizes getting larger and larger and make downloading from the Internet a little too slow?
 
-Try this script ( resize_images.pl ) to resize your jpg images and bring back that quick page load to your web page.
+Try this script ( resize_images.pl ) to resize your jpg and png images and bring back that quick page load to your web page.
 
 This script was made on Ubuntu Linux
 
