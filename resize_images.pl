@@ -10,7 +10,7 @@ use strict;
 use warnings;
 use diagnostics;
 
-#The next commented fileSizeline is for testing ( working on png support )
+#The next commented line is for testing ( working on png support... See "Issues" )
 #my @find = `find . -name "*.jpg" -o -name "*.JPG" -o -name "*.jpeg" -o -name "*.JPEG" -o -name "*.png" -o -name "*.PNG" |  sort --ignore-case`;
 my @find = `find . -name "*.jpg" -o -name "*.JPG" -o -name "*.jpeg" -o -name "*.JPEG" |  sort --ignore-case`;
 
