@@ -3,7 +3,7 @@
 # File name: resize_image.pl
 # Perl script to resize jpg and png images
 # By Joel Rader  info[at]joelrader[dot]net
-# Create resized images of files (jpg jpeg) with size of your choice
+# Create resized images of files (jpg jpeg png) with size of your choice
 # The script works as a thumbnail generator
 
 use strict;
