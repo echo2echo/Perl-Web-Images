@@ -60,7 +60,7 @@ or
 
     $ sudo cpanm CGI
 
-Place your images (jpg, jpeg and/or png) in a local directory (as mentioned earlier) on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
+Place your images ( jpg ) in a local directory (as mentioned earlier) on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory
 
 You may have to change permissions on image files with something like..
 
