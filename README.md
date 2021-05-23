@@ -43,6 +43,8 @@ Run the following command to create thumbnails
 
 If it works you will see a generated list of image files converted to thumbnails
 
+It takes a few seconds per photo to process the image to a thumbnail.
+
 #
 # Instructions for perl-cgi-images.pl
 #
