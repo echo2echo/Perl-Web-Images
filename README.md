@@ -69,7 +69,7 @@ Place your images ( jpg png ) in a local directory (as mentioned earlier) on you
 
 You may have to change permissions on image files with something like..
 
-    $ sudo chmod 764 *.JPG
+    $ sudo chmod 664 *.JPG
 
 Images to be displayed will be sorted alphanumerically with six images per sheet/page as the current setting. (You can change this number if you would like.)
 .
