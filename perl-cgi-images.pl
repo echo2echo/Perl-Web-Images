@@ -104,11 +104,11 @@ sub getNumberOfSheets {
 }
 
 sub getImagesPerSheet {
-
+		# Get sheet number from url
 		my $param = $cgi->param('sheet');
 		
 		if ($param){	
-		
+			# Get number of images found in @imagehtml array
 			my $number = @imagehtml;
 				
 			$start = ($param * 6 - 6);
@@ -120,8 +120,8 @@ sub getImagesPerSheet {
 			}			
 
 		} else {
-                        
-			$end = 5;
+                        # If sheet param not in, url start counting at 0 and end wirh sheet number minus 1 ( 5 here )
+ 			$end = 5;
                         $start = 0;
 		}
 		
