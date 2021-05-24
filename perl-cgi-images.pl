@@ -25,8 +25,7 @@ my $originalPath;
 my @imagehtml;
 
 # Place your images ( jpg jpeg and png ) in a local directory that has public http access
-# This script works best aesthetically if there are 60 or fewer images in a gallery. Though it is your call.
-# Next we will "find" all the "jpg", "JPG", "jpeg" or "png" images in your public folder containing your images.  Images to be displayed will be sorted alphanumerically. 
+# Next we will "find" all the "jpg", "jpeg" or "png" images in your public folder containing your images.  Images to be displayed will be sorted alphanumerically. 
 # Arrange photo file names alphanumerically to determine display order when running this script
 my @find = `find /var/www/YourSite.net/public_html/YourDirectory . -name "*.jpg" -o -name "*.JPG" -o -name "*.jpeg" -o -name "*.JPEG" -o -name "*.png" -o -name "*.PNG" |  sort --ignore-case`;
 
