@@ -28,9 +28,7 @@ To install imagemagick on Ubuntu Linux try the following...
 
 You can also build from source... see  https://imagemagick.org for instructions
 
-[A helpful page to install imagemagick with instructions to add png support found here](https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux)  \
-
-
+[A helpful page to install imagemagick with instructions to add png support found here](https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux)  
 
 When run, this script (resize_images.pl) will create or overwrite the existing thumb images named "thumb_*"
 
