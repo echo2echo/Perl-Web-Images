@@ -16,7 +16,7 @@ This may be good time to backup your images out of an abundance of caution
 
 Place the images ( jpg png ) you would like to display in a public folder such as the following...
 
-## /var/www/MySite.net/public_html/MyDirectory
+    /var/www/MySite.net/public_html/MyDirectory
 
 Then place the resize_images.pl script in the same directory as your images
 
