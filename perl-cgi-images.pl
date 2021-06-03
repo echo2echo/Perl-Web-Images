@@ -68,7 +68,7 @@ foreach(@find){
                         chomp($_);
 
 			# Changes local path to images to a URL
-			# Change YourSite.net to your own site einfo                 
+			# Change YourSite.net to your own site info                 
 			$_ =~ s/\/var\/www\/YourSite.net\/public_html\//https:\/\/YourSite.net\//;
                         $originalPath =~ s/\/var\/www\/YourSite.net\/public_html\//https:\/\/YourSite.net\//;
                         $originalPath =~ s/thumb_//;
