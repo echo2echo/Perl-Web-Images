@@ -50,14 +50,13 @@ It can take a few seconds per photo to process the image to a thumbnail.
 
 This script is for someone (a photographer for example) who would like to display web pages of resized images paginated into separate sheets/pages.
 
-
+Very good for sharing photos with family and friends.
 
 [Try here for a demo gallery](https://joelrader.net/cgi-bin/backgrounds/)
 
 This script requires a web server with a cgi-bin that runs Perl.  Your server may require installing the Perl modules CGI and POSIX
 There are several methods to install these modules.
 
-Very good for sharing photos with family and friends.
 For example
 
     $ sudo cpan -i CGI 
