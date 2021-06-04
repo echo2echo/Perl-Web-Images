@@ -99,7 +99,7 @@ sub getNumberOfSheets {
 
 	# print sheets menu
 	for (my $i=1; $i <= $sheets; $i++){
-		print '&nbsp;&nbsp;<a style="color:slategray;" href="./?sheet='.$i.'">Sheet '.$i.'</a> &nbsp;&nbsp;'."\n\t";
+		print '&nbsp;<a style="color:slategray;" href="./?sheet='.$i.'">Sheet '.$i.'</a> &nbsp;'."\n\t";
 	}
 }
 
