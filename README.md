@@ -30,7 +30,7 @@ You can also build from source... see  https://imagemagick.org for instructions
 
 [A helpful page to install imagemagick with instructions to add png support found here](https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux)  
 
-Try the following to see if your image type is supported.
+Try the following after installing imagemagick to see if your image type is supported.
 
         $ identify -version
 
