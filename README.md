@@ -24,7 +24,7 @@ You may need to install imagemagick for this script to run
 
 To install imagemagick on Ubuntu Linux try the following...
 
-    $ sudo apt install imagemagick 
+  $    sudo apt install imagemagick 
 
 You can also build from source... see  https://imagemagick.org for instructions
 
