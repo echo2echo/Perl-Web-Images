@@ -56,8 +56,6 @@ This script is for someone (a photographer for example) who would like to displa
 
 Very good for sharing photos with family and friends.
 
-Use these scripts instead of sending large files as an email attachment.
-
 [Try here for a demo gallery](https://joelrader.net/cgi-bin/backgrounds/)
 
 This script requires a web server with a cgi-bin that runs Perl.  Your server may require installing the Perl modules CGI and POSIX
