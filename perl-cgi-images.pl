@@ -103,7 +103,7 @@ sub getImagesPerSheet {
 		# Get sheet number from url
 		my $param = $ENV{'QUERY_STRING'};
                 
-		if (param =~ m/sheet=(\d+)/) {
+		if ($param =~ m/sheet=(\d+)/) {
 
                         $param = $1;
 			
