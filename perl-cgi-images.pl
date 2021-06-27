@@ -102,9 +102,11 @@ sub getNumberOfSheets {
 sub getImagesPerSheet {
 		# Get sheet number from url
 		my $param = $ENV{'QUERY_STRING'};
-                $param =~ s/sheet=//;
-		
-		if ($param){	
+                
+		if (param =~ m/sheet=(\d+)/) {
+
+                        $param = $1;
+			
 			# Get number of images found in @imagehtml array
 			my $number = @imagehtml;
 				
