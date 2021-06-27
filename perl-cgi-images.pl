@@ -9,13 +9,9 @@ use strict;
 use warnings; 
 use diagnostics;
 
-
-# You may need to install the following 2 perl modules and their dependencies...
-use CGI qw(param);
 use POSIX qw(ceil);
 
 # Declare variables
-my $cgi = CGI->new;
 my $end = 0;
 my $start = 0;
 my $element = 0;
@@ -105,7 +101,8 @@ sub getNumberOfSheets {
 
 sub getImagesPerSheet {
 		# Get sheet number from url
-		my $param = $cgi->param('sheet');
+		my $param = $ENV{'QUERY_STRING'};
+                $param =~ s/sheet=//;
 		
 		if ($param){	
 			# Get number of images found in @imagehtml array
