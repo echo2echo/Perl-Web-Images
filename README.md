@@ -58,16 +58,7 @@ Very good for sharing photos with family and friends.
 
 [Try here for a demo gallery](https://joelrader.net/cgi-bin/backgrounds/)
 
-This script requires a web server with a cgi-bin that runs Perl.  Your server may require installing the Perl modules CGI and POSIX
-There are several methods to install these modules.
-
-For example
-
-    $ sudo cpan -i CGI 
-
-or 
-
-    $ sudo cpanm CGI
+This script requires a web server with a cgi-bin that runs Perl.  
 
 Place your images ( jpg png ) in a public directory (as mentioned earlier) on your server that has public http access such as /var/www/YourSite.net/public_html/YourDirectory and run the resize_images.pl script.
 
