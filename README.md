@@ -42,7 +42,7 @@ Run the chmod (permissions) command as follows to give permission to run the scr
 
 Run the following command to create thumbnails (May require sudo)
  
-    $ sudo ./resize_images.pl
+    $ sudo ./resize_images.pl 
 
 If it works you will see a generated list of image files converted to thumbnails
 
