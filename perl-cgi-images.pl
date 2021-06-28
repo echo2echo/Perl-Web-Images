@@ -107,6 +107,8 @@ sub getImagesPerSheet {
 
                         $param = $1;
 			
+			print "<p style=\"color:slategray;\"> Now Viewing Sheet $param </p> <br>";
+			
 			# Get number of images found in @imagehtml array
 			my $number = @imagehtml;
 				
