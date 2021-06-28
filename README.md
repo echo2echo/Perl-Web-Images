@@ -38,7 +38,7 @@ When run, this script (resize_images.pl) will create or overwrite the existing t
 
 Run the chmod (permissions) command as follows to give permission to run the script
  
-     $             sudo chmod 755 resize_images.pl
+     $ sudo chmod 755 resize_images.pl
 
 Run the following command to create thumbnails (May require sudo)
  
