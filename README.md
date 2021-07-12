@@ -34,7 +34,7 @@ Try the following after installing imagemagick to see if your image type is supp
 
         $ identify -version
 
-When run, this script (resize_images.pl) will create or overwrite the existing thumb images named "thumb_*"
+When run, this script (resize_images.pl) will create or overwrite thumb images named "thumb_*"
 
 Run the chmod (permissions) command as follows to give permission to run the script
  
