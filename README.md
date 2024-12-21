@@ -50,7 +50,7 @@ It can take a few seconds per photo to process the image to a thumbnail.
 # Instructions for perl-cgi-images.pl
 #
 
-This script is for someone (a photographer for example) who would like to display web pages of resized images paginated into separate sheets/pages.
+This script (perl-cgi-images.pl) is for someone (a photographer for example) who would like to display web pages of resized images paginated into separate sheets/pages.
 
 Very good for sharing photos with family and friends.
 
@@ -66,7 +66,7 @@ You may have to change permissions on image files with something like..
 
 Images to be displayed will be sorted alphanumerically with six images per sheet/page as the current setting. (You can change this number if you would like.)
 .
-Arrange photo file names alphanumerically to determine display order when running this script.
+Arrange photo file names alphanumerically to determine display order when running this script.ooooooooooooooooooooooooooooooooooooooo
 
 To unzip the github zip file use Linux "unzip" with the -d flag to upzip into your prefered directory.
 
