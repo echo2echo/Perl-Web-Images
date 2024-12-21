@@ -97,4 +97,3 @@ Use the resize_images.pl script with the instructions above to generate resized 
 When viewing the page the thumbnails are displayed. if you would like to see the full sized original file, click on a thumbnail
 
 Visit your site at something like http://YourSite.net/cgi-bin/MyGallery/ to see your image gallery.
-b
