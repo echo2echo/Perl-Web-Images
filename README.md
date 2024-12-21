@@ -6,13 +6,11 @@
 
 This script was made on Ubuntu Linux
 
-Are your camera's image file sizes getting larger and larger and make downloading from the Internet a little too slow?
+Are your camera's image file sizes getting larger and larger and make page loading a little too slow?
 
 Try this script ( resize_images.pl ) to resize your jpg and png images and bring back that quick page load to your web page.
 
 Run this script before the perl-cgi-images.pl cgi script whose instructions are listed below... 
-
-This may be good time to backup your images out of an abundance of caution 
 
 Place the images ( jpg png ) you would like to display in a public folder such as the following...
 
@@ -99,3 +97,4 @@ Use the resize_images.pl script with the instructions above to generate resized 
 When viewing the page the thumbnails are displayed. if you would like to see the full sized original file, click on a thumbnail
 
 Visit your site at something like http://YourSite.net/cgi-bin/MyGallery/ to see your image gallery.
+b
