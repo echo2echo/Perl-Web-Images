@@ -18,7 +18,7 @@ Place the images ( jpg png ) you would like to display in a public folder such a
 
 Then place the resize_images.pl script in the same directory as your images
 
-You may need to install imagemagick for this script to run
+You will need to install imagemagick for this script to run
 
 To install imagemagick on Ubuntu Linux try the following...
 
