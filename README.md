@@ -62,7 +62,7 @@ Place your images ( jpg png ) in a public directory (as mentioned earlier) on yo
 
 You may have to change permissions on image files with something like..
 
-    $ sudo chmod 664 *.JPG
+    $ sudo chmod 744 *.JPG
 
 Images to be displayed will be sorted alphanumerically with six images per sheet/page as the current setting. (You can change this number if you would like.)
 .
