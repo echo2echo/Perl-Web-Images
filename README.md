@@ -1,4 +1,4 @@
-# Perl-Web-Images
+u# Perl-Web-Images
 
 #
 # Instructions for resize_images.pl
@@ -86,4 +86,4 @@ When viewing the page the thumbnails are displayed. if you would like to see the
 
 Visit your site at something like http://YourSite.net/cgi-bin/MyGallery/ to see your image gallery.
 
-[Demontration here.] (https://joelrader.net/cgi-bin/backgrounds/index.pl?sheet=1)
+[Demonstration here](https://joelrader.net/cgi-bin/backgrounds/index.pl?sheet=1)
