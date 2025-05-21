@@ -1,4 +1,4 @@
-u# Perl-Web-Images
+#Perl-Web-Images
 
 #
 # Instructions for resize_images.pl
