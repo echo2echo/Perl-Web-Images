@@ -13,7 +13,7 @@ Try this script ( resize_images.pl ) to resize your jpg and png images and bring
 Run this script before the perl-cgi-images.pl cgi script whose instructions are listed below... 
 
 Place the images ( jpg png ) you would like to display in a public folder such as the following...
-
+u
     /var/www/MySite.net/public_html/MyDirectory
 
 Then place the resize_images.pl script in the same directory as your images
@@ -86,4 +86,4 @@ When viewing the page the thumbnails are displayed. if you would like to see the
 
 Visit your site at something like http://YourSite.net/cgi-bin/MyGallery/ to see your image gallery.
 
-[Try a demonstration of the cgi script here...](https://joelrader.net/cgi-bin/backgrounds/?sheet=1)
+Try a demonstration of the cgi script here...[https://joelrader.net/cgi-bin/backgrounds/?sheet=1]
