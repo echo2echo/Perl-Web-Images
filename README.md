@@ -63,9 +63,9 @@ You may have to change permissions on image files with something like..
     $ sudo chmod 744 *.JPG
 
 Images to be displayed will be sorted alphanumerically with six images per sheet/page as the current setting. (You can change this number if you would like.)
-.
+
 Arrange photo file names alphanumerically to determine display order when running this script.
--
+
 Give execute permission to the perl script.
 
      $ chmod 755 perl-cgi-images.pl 
