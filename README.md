@@ -70,7 +70,7 @@ Give execute permission to the perl script.
 
     $ chmod 755 perl-cgi-images.pl 
 
-Change name of perl file "perl-cgi-images.pl" to "index.pl" so the script will function properly.  Make sure you have your perl index file name included (DirectoryIndex index.html index.php index.pl) in config file if using the Apache Webserver
+Change name of perl file "perl-cgi-images.pl" to "index.pl" so the script will function properly.  Make sure you have your perl index file name included with (DirectoryIndex index.html index.php index.pl) in config file if using the Apache Webserver
     
     $ sudo mv perl-cgi-images.pl index.pl
 
