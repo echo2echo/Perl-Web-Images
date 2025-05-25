@@ -50,6 +50,8 @@ It can take a few seconds per photo to process the image to a thumbnail.
 # Instructions for perl-cgi-images.pl
 #
 
+uuTry a demonstration of the cgi script here...[https://joelrader.net/cgi-bin/backgrounds/?sheet=1]
+
 This script (perl-cgi-images.pl) is for someone (a photographer for example) who would like to display web pages of resized images paginated into separate sheets/pages.
 
 Very good for sharing photos with family and friends.
@@ -83,5 +85,3 @@ This script will display thumbnail images having the text "thumb_" in the filena
 Use the resize_images.pl script with the instructions above to generate resized images and change image file size and rename img file with "thumb_" filename.
 
 When viewing the page the thumbnails are displayed. if you would like to see the full sized original file, click on a thumbnail
-
-Try a demonstration of the cgi script here...[https://joelrader.net/cgi-bin/backgrounds/?sheet=1]
