@@ -50,7 +50,7 @@ It can take a few seconds per photo to process the image to a thumbnail.
 # Instructions for perl-cgi-images.pl
 #
 
-uuTry a demonstration of the cgi script here...[https://joelrader.net/cgi-bin/backgrounds/?sheet=1]
+Try a demonstration of the cgi script here...[https://joelrader.net/cgi-bin/backgrounds/?sheet=1]
 
 This script (perl-cgi-images.pl) is for someone (a photographer for example) who would like to display web pages of resized images paginated into separate sheets/pages.
 
