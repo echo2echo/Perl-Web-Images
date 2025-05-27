@@ -3,7 +3,7 @@
 # File Name: perl-cgi-images.pl 
 # Perl CGI Script to Create Paginated Sheets of Image Galleries
 # Made for Photographers
-# By Joel Rader  info[at]JoelRader[dot]net
+# By Joel Rader echophotographic@gmail.com
 
 use strict;
 use warnings; 
