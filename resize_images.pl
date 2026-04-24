@@ -5,7 +5,7 @@
 # By Joel Rader  echophotographic@gmail.com
 # Create resized images of files (jpg jpeg png) with size of your choice
 # The script works as a thumbnail generator
-# This script works in the current directory and each sub-directory
+# This script works in the same directory as the script and each sub-directory
 
 use strict;
 use warnings;
