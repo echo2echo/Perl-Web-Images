@@ -76,7 +76,7 @@ Copy perl file "perl-cgi-images.pl" to "index.pl" so the script will function pr
     
     $ cp perl-cgi-images.pl index.pl
 
-See notes and other instructions in the Perl script
+See notes and other instructions in the Perl script.
 
 Change html to taste and change Copyright to your own site.
 
