@@ -24,9 +24,7 @@ To install imagemagick on Ubuntu Linux try the following...
 
       $ sudo apt install imagemagick 
 
-You can also build from source... see  https://imagemagick.org for instructions
-
-[A helpful page to install imagemagick with instructions to add png support found here](https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux)  
+You can also build from source... see  https://imagemagick.org for instructions.
 
 Try the following after installing imagemagick to see if your image type is supported.
 
