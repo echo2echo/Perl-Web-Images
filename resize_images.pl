@@ -56,7 +56,6 @@ sub resize {
         # On Ubuntu linux try the following...
         # $ sudo apt install imagemagick 
         # or build from source... see  https://imagemagick.org for instructions
-        # This command will overwrite the existing images named "thumb_*"
         # -resize x400 sets all generated files to a height of 400... change as needed
         $thumb = `convert $fileName -resize x400 thumb_$fileName 2>/dev/null`;
 
