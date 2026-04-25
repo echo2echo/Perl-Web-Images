@@ -32,10 +32,6 @@ Try the following after installing imagemagick to see if your image type is supp
 
 When run, this script (resize_images.pl) will create or overwrite thumb images named "thumb_*"
 
-Run the chmod (permissions) command as follows to give permission to run the script
- 
-     $ sudo chmod 755 resize_images.pl
-
 Run the following command to create thumbnails (May require sudo)
  
     $ sudo ./resize_images.pl 
