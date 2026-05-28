@@ -72,7 +72,7 @@ Copy perl file "perl-cgi-images.pl" to "index.pl" so the script will function pr
 
 See notes and other instructions in the Perl script.
 
-Change html to taste and change Copyright to your own site.
+Change html to taste and change Copyright/Copyleft to your own site.
 
 This script will display thumbnail images having the text "thumb_" in the filename.
 
