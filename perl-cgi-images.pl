@@ -68,6 +68,7 @@ foreach(@find){
 			$_ =~ s/\/var\/www\/YourSite.net\/public_html\//https:\/\/YourSite.net\//;
                         $originalPath =~ s/\/var\/www\/YourSite.net\/public_html\//https:\/\/YourSite.net\//;
                         $originalPath =~ s/thumb_//;
+						chomp($originalPath);
                         # Load array with image html
                         push @imagehtml, '<a href="'.$originalPath.'"><img class="resize" src="'.$_.'" alt="'.$_.'"></a>'."\n\t";
         }
